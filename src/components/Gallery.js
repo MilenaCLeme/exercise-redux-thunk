@@ -6,6 +6,7 @@ import defaultCat from '../images/detCat.gif';
 class Gallery extends Component {
   render() {
     const { imgPath, isLoading, useDefaultImg } = this.props;
+    console.log(imgPath);
     return (
       <div className="gallery-container">
         { isLoading && <div>LOADING...</div> }
